@@ -27,10 +27,38 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 # theme: minima
+# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.15.2"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+# Site Author
+author:
+  name             : "Jason Tanuwijaya"
+  avatar           : "https://scontent.fsin8-2.fna.fbcdn.net/v/t1.0-9/45325308_10213500978818240_6764886529891368960_n.jpg?_nc_cat=104&_nc_ht=scontent.fsin8-2.fna&oh=6baf172ab0ec590c0e86aaeae8743439&oe=5CF3B5AA"
+  bio              : "Data Scientist sent to investigate the earth."
+  location         : "Somewhere within Milky Way"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: mailto:your.name@email.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jay_2510"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/jay_2510"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

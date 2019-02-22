@@ -33,6 +33,19 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 # Site Author
 author:
   name             : "Jason Tanuwijaya"

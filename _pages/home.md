@@ -4,7 +4,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images//main_banner.jpg
+  overlay_image: /assets/images/main_banner.jpg
   cta_label: "Learn More"
   cta_url: "/about"
   caption:

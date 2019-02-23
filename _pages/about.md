@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 title: "What is this site about?"
 excerpt: "A Log Book by JT is a compiled notes written by Jason Tanuwijaya."
-last_modified_at: 2019-02-23T10:22:00-04:00
+last_modified_at: 2019-02-23 10:22:00 +0800
 toc: true
 ---
 
@@ -15,7 +15,7 @@ This site might in addtion stores my thought process, personal journal, idea abo
 ## Who are you?
 Hello, visitor! Welcome to my humble site.
 
-My name is Jason Tanuwijaya, usually called JT are jay.
+My name is Jason Tanuwijaya, usually called JT or jay.
 
 
 In case you're wondering how old I am, I born in the year of Fire Rat :fire::mouse:. Do the research, padawan.

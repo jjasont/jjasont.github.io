@@ -110,11 +110,11 @@ social:
     # - "https://facebook.com/michaelrose"
 
 # Analytics
-# analytics:
-#   provider               : "" # false (default), "google", "google-universal", "custom"
-#   google:
-#     tracking_id          : "" # Replace this with your ID, or delete
-#     anonymize_ip         : true
+analytics:
+  provider               : "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "UA-135041515-1" # Replace this with your ID, or delete
+    anonymize_ip         : false
 
 
 # Site Author

@@ -13,7 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jason's Log Record
+title: A Log Book by JT
+name: &name "Jason Tanuwijaya" # &name is a YAML anchor which can be *referenced later
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -25,7 +26,21 @@ twitter_username: jay_2510
 github_username:  jjasont
 
 # Build settings
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
 # theme: minima
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.15.2"
@@ -48,37 +63,70 @@ defaults:
       share: true
       related: true
 
+# Social Sharing
+twitter:
+  username               : &twitter "jay_2510"
+# facebook:
+#   username               : &facebook "michaelrose"
+#   app_id                 :
+#   publisher              :
+# og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
+# For specifying social profiles, used in _includes/seo.html
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://twitter.com/jay_2510"
+    # - "https://facebook.com/michaelrose"
+
+# Analytics
+# analytics:
+#   provider               : "" # false (default), "google", "google-universal", "custom"
+#   google:
+#     tracking_id          : "" # Replace this with your ID, or delete
+#     anonymize_ip         : true
+
+
 # Site Author
 author:
-  name             : "Jason Tanuwijaya"
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "https://scontent.fsin8-2.fna.fbcdn.net/v/t1.0-9/45325308_10213500978818240_6764886529891368960_n.jpg?_nc_cat=104&_nc_ht=scontent.fsin8-2.fna&oh=6baf172ab0ec590c0e86aaeae8743439&oe=5CF3B5AA"
   bio              : "Data Scientist sent to investigate the earth."
-  location         : "Somewhere within Milky Way"
+  location         : "Singapore, SG"
   email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jay_2510"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/jay_2510"
+  uri              : "https://jjasont.github.io"
+  home             : "https://jjasont.github.io"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : *facebook
+  foursquare       :
+  github           : "jjasont"
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        : "jay_2510"
+  lastfm           : "jay_2510"
+  linkedin         :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # https://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : *twitter
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
 
-permalink: /:categories/:title/
+
+
+# permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: SG # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

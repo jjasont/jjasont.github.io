@@ -4,7 +4,7 @@ layout: tags
 permalink: /tags/
 ---
 
-{{ content }}
+<!-- {{ content }}
 
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
@@ -41,4 +41,4 @@ permalink: /tags/
       </section>
     {% endif %}
   {% endfor %}
-{% endfor %}
+{% endfor %} -->

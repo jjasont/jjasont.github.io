@@ -10,7 +10,7 @@ toc: true
 
 A Log Book by JT is a compiled personal notes which revolved and written by me, Jason Tanuwijaya.
 
-This site might in addtion stores my thought process, personal journal, idea about work and showcases my previous work.
+This site might in addition stores my thought process, personal journal, idea about work and showcases my previous work.
 
 ## Who are you?
 Hello, visitor! Welcome to my humble site.

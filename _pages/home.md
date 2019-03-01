@@ -17,13 +17,13 @@ feature_row:
     url: "/categories/#code"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  #- image_path: /assets/images/mm-responsive-feature.png
-  #  alt: "fully responsive"
-  #  title: "Responsive Layouts"
-  # excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-  #  url: "/docs/layouts/"
-  #  btn_class: "btn--primary"
-  #  btn_label: "Learn More"
+  - image_path: /assets/images/idea.png
+    alt: "Idea"
+    title: "Idea - General"
+    excerpt: "Thought, ideation and wander on different topics."
+    url: "/categories/#general"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
   #- image_path: /assets/images/mm-free-feature.png
   #  alt: "100% free"
   #  title: "100% Free"

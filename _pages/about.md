@@ -2,15 +2,20 @@
 permalink: /about/
 layout: single
 author_profile: true
-title: "What is this site about?"
+title: "About"
 excerpt: "A Log Book by JT is a compiled notes written by Jason Tanuwijaya."
 last_modified_at: 2019-02-23 10:22:00 +0800
 toc: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/hello_world_flip.jpg
+  overlay_filter: rgba(200, 200, 200, 0.3)
 ---
 
+# What is this site about?
 A Log Book by JT is a compiled personal notes which revolved and written by me, Jason Tanuwijaya.
 
-This site might in addition stores my thought process, personal journal, idea about work and showcases my previous work.
+This site might in addition records my thought process, personal journal, idea about work and showcases my previous work.
 
 ## Who are you?
 Hello, visitor! Welcome to my humble site.
@@ -20,13 +25,13 @@ My name is Jason Tanuwijaya, usually called JT or jay.
 
 In case you're wondering how old I am, I born in the year of Fire Rat :fire::mouse:. Do the research, padawan.
 
-### What is your background?
+### What is your demographic background?
 - Born into South East Asian family.
 - Hailing from [City of Heros, Surabaya, East Java, Indonesia](https://en.wikipedia.org/wiki/Surabaya)
-- Currently stays in [the most expensive city in the world, Singapore](https://www.forbes.com/sites/jwebb/2017/11/30/singapore-is-still-the-most-expensive-city-in-the-world/#79ab6e48c5e9)
+- Currently staying and working  in [the most expensive city in the world, Singapore](https://www.forbes.com/sites/jwebb/2017/11/30/singapore-is-still-the-most-expensive-city-in-the-world/#79ab6e48c5e9)
 
-#### What did you study last time?
-I completed my Bachelor of Science (B.Sc (Hons)) in Nanyang Technological University (NTU) of [pure physics along with a second major in mathemtics/statistics](http://spms.ntu.edu.sg/PhysicsandAppliedPhysics/Undergraduates/Pages/Curriculum/Undergrad2ndMajorAY13_14.aspx) with Honours (Distinction).
+### What did you study last time?
+I completed my Bachelor of Science (B.Sc (Hons)) in Nanyang Technological University (NTU) of [pure physics along with a second major in mathematics/statistics](http://spms.ntu.edu.sg/PhysicsandAppliedPhysics/Undergraduates/Pages/Curriculum/Undergrad2ndMajorAY13_14.aspx) with Honours (Distinction).
 
 <!-- My subject interest during my undergraduate year is  -->
 
@@ -36,7 +41,9 @@ Personally, it is challenging to complete such extra amount of courses in the 4 
 
 Prior my university education, I completed my senior high school/junior college in my hometown and took Science stream.
 
+## How do you venture out into the world of programming/coding?
 
+## What are your programming tools/technology stack?
 <!-- 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 

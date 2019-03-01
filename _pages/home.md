@@ -24,13 +24,13 @@ feature_row:
     url: "/categories/#general"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  #- image_path: /assets/images/mm-free-feature.png
-  #  alt: "100% free"
-  #  title: "100% Free"
-  #  excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
-  #  url: "/docs/license/"
-  #  btn_class: "btn--primary"
-  #  btn_label: "Learn More"
+  - image_path: /assets/images/dices.png
+    alt: "Surprise Me"
+    title: "Surprise Me"
+    excerpt: "Go to any random part of the sites"
+    url: "/random/"
+    btn_class: "btn--primary"
+    btn_label: "Surprise Me"
 intro:
   - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fab fa-twitter"></i> @jay_2510](https://twitter.com/jay_2510){: .btn .btn--twitter} <!-- [<i class="fab fa-paypal"></i> Tip Me](https://www.paypal.me/mmistakes){: .btn .btn--primary} -->'
 ---

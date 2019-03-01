@@ -5,12 +5,15 @@ main:
   #   url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Pages"
-    url: /page-archive/
+  # - title: "Pages"
+    # url: /page-archive/
   - title: "Collections"
     url: /collection-archive/
   - title: "About"
     url: /about/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
+
 
 # sidebar navigation list sample
 posts:

@@ -31,7 +31,7 @@ In case you're wondering how old I am, I born in the year of Fire Rat :fire::mou
 - Currently staying and working  in [the most expensive city in the world, Singapore](https://www.forbes.com/sites/jwebb/2017/11/30/singapore-is-still-the-most-expensive-city-in-the-world/#79ab6e48c5e9)
 
 ### What did you study last time?
-I completed my Bachelor of Science (B.Sc (Hons)) in Nanyang Technological University (NTU) of [pure physics along with a second major in mathematics/statistics](http://spms.ntu.edu.sg/PhysicsandAppliedPhysics/Undergraduates/Pages/Curriculum/Undergrad2ndMajorAY13_14.aspx) with Honours (Distinction).
+I completed my Bachelor of Science (B.Sc (Hons)) in Nanyang Technological University (NTU) of [pure physics along with a second major in mathematics/statistics](https://spms.ntu.edu.sg/PhysicsandAppliedPhysics/Undergraduates/Pages/Curriculum/PHMA-AY1314.aspx) with Honours (Distinction).
 
 <!-- My subject interest during my undergraduate year is  -->
 
